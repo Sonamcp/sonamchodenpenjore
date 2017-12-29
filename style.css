@@ -18,3 +18,9 @@ img{
     background-size: cover;
     height: 100vh;
 }
+footer{
+    list-style: none;
+}
+footer li{
+    display: inline;
+}
