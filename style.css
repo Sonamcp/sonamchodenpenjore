@@ -3,6 +3,7 @@ body{
     font-family: Verdana;
     background: #FA605E;
     margin: 0 auto;
+    color: #FFF;
     }  
 ol{
     display: inline-block;
@@ -11,6 +12,7 @@ img{
     border-radius: 50%;
     border: 10px dashed #5F93A4;
     width: 40%;
+    margin-top: 20px;
     }
 .main{
     background: url("https://images.unsplash.com/photo-1512070950669-a53f137d67b0?auto=format&fit=crop&w=750&q=80");
