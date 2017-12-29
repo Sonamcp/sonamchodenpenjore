@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    font-family: Verdana;
+    background: #FA605E;
+    }  
+ol{
+    display: inline-block;
+    }
+img{
+    border-radius: 50%;
+    border: 2px solid #E5E7E9;
+    }
