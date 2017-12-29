@@ -8,5 +8,6 @@ ol{
     }
 img{
     border-radius: 50%;
-    border: 2px solid #E5E7E9;
+    border: 2px dashed #5F93A4;
+    width: 40%;
     }
