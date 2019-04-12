@@ -1,0 +1,69 @@
+body{
+	background: #f9dbbd36;
+}
+.content{
+	height: calc(100% - 3em);
+}
+.jumbotron{
+	height: calc(100vh - 10em);
+	background: transparent;
+}
+.name{
+	color: #E15F77;
+}
+.roles{
+	color: #424874;
+}
+.education{
+	min-height: 400px;
+	margin-bottom: 4em;
+	padding: 2em 2em 0 2em;
+	display: grid;
+	grid-gap: 1em;
+	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+.project-title{
+	color: #424874;
+}
+.links{
+	text-align: center;
+	border-top: 2px solid #706A8C;
+}
+.links h5{
+	margin-top: 2em;
+}
+.links hr{
+	background: #E15F77;
+}
+.contact-links{
+	height: 150px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.btn-info{
+	background-color: #E15F77;
+	border: 1px solid #E15F77;
+}
+.btn-info:hover{
+	background-color: transparent;
+	color: #E15F77;
+	border: 1px solid #E15F77;
+}
+.btn-outline-info{
+	color: #E15F77;
+  border-color: #E15F77;
+}
+.btn-outline-info:hover {
+	background-color: #E15F77;
+	border-color: #E15F77;
+}
+footer{
+	text-align: center;
+  margin: 2em 0;
+}
+@media only screen and (min-width: 576px){
+	.jumbotron {
+			padding: 13rem 2rem;
+	}
+}
